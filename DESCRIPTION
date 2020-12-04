@@ -1,0 +1,25 @@
+Package: Fiesta
+Type: Package
+Version: 1.1.2
+Title:  Factor based estimation Single-Cell RNA-Seq Gene Expression Recovery
+Authors@R: c(
+    person(given = "Elnaz",
+           family = "Mirzaei Mehrabad",
+           role = c("aut", "cre"),
+           email = "e.mirzaei.m@gmail.com"),
+           person(given = "Benjamin", family = "Spike", email = "benjamin.spike@hci.utah.edu", 
+        role = "aut"))
+Description: What the package does (one paragraph).
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.0.1)
+Imports: 
+    NMF,
+    fitdistrplus,
+    mixtools
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
